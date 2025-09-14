@@ -1,6 +1,6 @@
 
 import java.util.*;
-import java.lang.*;
+
 
 class arrayStack{
      private static final int MAX_SIZE = 30;
@@ -74,6 +74,7 @@ public class stack {
                 stack.display();
                 break;
             case 5:
+                scan.close();
                 System.exit(0);
 
             default:

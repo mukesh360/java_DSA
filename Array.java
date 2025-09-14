@@ -111,6 +111,7 @@ class Array{
                     break;
 
                 case 5:
+                scan.close();
                 System.exit(0);
 
 
